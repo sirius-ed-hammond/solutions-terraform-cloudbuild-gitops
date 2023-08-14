@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "sirius-internal-ed-hammond-2-tfstate"
     prefix = "env/dev"
   }
 }
