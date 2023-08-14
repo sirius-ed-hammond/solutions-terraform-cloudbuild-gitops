@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "sirius-internal-ed-hammond-2-tfstate"
-    prefix = "env/prod"
+    bucket = "edhtest123"
+    prefix = "tfstate/solutions-terraform-cloudbuild-gitops/env/prod"
   }
 }
